@@ -1,2 +1,2 @@
 # School
-A place for me to put small scripts that i made for school.
+A place for ilikeurm1 to put small scripts that he made for school. Revised by his dad Certiman.
