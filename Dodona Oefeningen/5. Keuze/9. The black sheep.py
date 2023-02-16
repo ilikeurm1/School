@@ -1,6 +1,6 @@
 N1 = int(input('N1: '))
-N2 = int(input('N1: '))
-N3 = int(input('N1: '))
+N2 = int(input('N2: '))
+N3 = int(input('N3: '))
 
 if N2 == N3: #N1 is the black sheep
     print('Het eerste getal, nl.', N1, 'is het zwarte schaap.')
