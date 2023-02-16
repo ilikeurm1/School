@@ -1,5 +1,6 @@
-Letter1 = str(input('Letter 1: '))
-Letter2 = str(input('Letter 2: '))
+Letter1 = str(input('Letter 1: ').upper())
+Letter2 = str(input('Letter 2: ').upper())
+
 
 if Letter1 == 'A' and Letter2 == 'B':
     Result = 'AB'
@@ -12,4 +13,4 @@ elif Letter2 == 'O' and Letter1 != Letter2:
 elif Letter1 == Letter2:
     Result = Letter1
 
-print('The combination of the ABO alleles', Letter1, 'and', Letter2, 'results in blood type', Result+'.')
+print(f"The combination of the ABO alleles {Letter1} and {Letter2} results in blood type {Result}.")
